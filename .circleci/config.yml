@@ -12,12 +12,11 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: make lint
-          name: run lint
-      - run:
           command: make install
           name: run make install
-
+      - run:
+          command: make lint
+          name: run lint
 workflows:
   main:
     jobs:
