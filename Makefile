@@ -3,7 +3,7 @@
 # 	python3 -m venv ~/.dockerproj
 
 install:
-	pip install --upgrade pip &&    pip install -r requirements.txt
+	pip install --upgrade pip &&    pip install -r requirements.txt --user
 	
 # validate-circleci:
 # 	# See https://circleci.com/docs/2.0/local-cli/#processing-a-config 
