@@ -5,4 +5,4 @@ install:
 lint:
 	pylint --disable=R,C,W1203 hello.py
 
-all: install lint test
+all: install lint
